@@ -1,0 +1,72 @@
+﻿#Bajo{
+    width:960px;
+    margin:auto;
+    background-color:#9ff4b2;
+    border-radius:0px 0px 20px 20px;
+    overflow:auto;
+    box-shadow:0px 0px 10px #000;
+}
+#ColumnaIzquierda,#ColumnaDerecha{
+    float:left;
+    width:20%;
+    min-height:500px;
+}
+#ColumnaDerecha >div{
+    width:80px;
+    margin:10px auto;
+    border-radius:20px;
+    border:1px dashed #ffd800;
+}
+
+
+/* Este es el menu de seleccion de ls ventanas de Camisas, Zapatos, pantalones*/
+#MenuContextual{
+    list-style-type:none;
+    padding:0;
+    margin:50px 0;
+}
+#MenuContextual li{
+    padding:10px;
+    text-align:center;
+    background-color:#ffd800;
+    border:1px outset #1da432;
+    box-shadow:0px 0px 10px #000; /* Sombreado */
+}
+#MenuContextual li a{ 
+    text-decoration:none;/* Quita el subrrallado */
+    color:#ffffff;
+}
+/* fin del menu de seleccion de ls ventanas de Camisas, Zapatos, pantalones*/
+
+
+#ColumnaCentro{
+    float:left;
+    width:60%;
+    min-height:700px;
+    background-color:white;
+    box-shadow:0px 0px 5px #000 inset;
+}
+/*********************************************************************************/
+/* Copyright     Pie de la pagina                                                */
+/*********************************************************************************/
+	
+	#copyright
+	{
+		position: relative;
+		padding: 3em 0em;
+		text-align: center;
+        color: #1da432;
+		
+	}
+	
+	#copyright .container
+	{
+	}
+	
+	#copyright a
+	{
+		text-decoration: none;
+        text-align: center;
+		color: #064719;
+	}	
+

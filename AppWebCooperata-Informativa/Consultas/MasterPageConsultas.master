@@ -1,0 +1,22 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterPageCooperativa.master" AutoEventWireup="true" CodeFile="MasterPageConsultas.master.cs" Inherits="Consultas_MasterPageConsultas" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentMenu" Runat="Server">
+
+    <ul id="MenuContextual">
+
+        <li> <a href="ConsultarSaldos.aspx">Consultar saldos</a></li>
+        <li> <a href="ConsultarEstadosC.aspx">Consultar estados</a></li>
+
+    </ul>
+
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPrincipal" Runat="Server">
+
+         <asp:ContentPlaceHolder id="ContentPrincipal" runat="server">
+        
+        </asp:ContentPlaceHolder>  
+
+</asp:Content>
+
