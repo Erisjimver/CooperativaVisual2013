@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageCooperativa.master.cs" Inherits="MasterPageCooperativa" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    
+    <form id="form1" runat="server">
+     
+         <div>
+
+		<div id="header">
+			<div class="container">
+					
+				<!-- Logo -->
+					<div id="logo">
+						<h1><a href="#">COOPERATIVA</a></h1>
+						<span>¡Mi cooperativa, tu cooperativa!</span>
+					</div>
+				
+				<!-- Nav -->
+					<nav id="nav">
+
+						<ul>
+
+						 	<li class="active"><a href="/Default.aspx">Homepage</a></li> 
+						 	<li><a href="/Consultas/DefaultConsultas.aspx">Consultas</a></li>        
+							<li><a href="/Pagos/DefaultPagos.aspx">Pago de servicios</a></li>   
+                            <li><a href="/Transferencia/DefaultTransacciones.aspx">Transacciones</a></li>   
+						
+						</ul>
+                       
+                    </nav>
+
+			</div>
+		</div>
+ </div>
+       
+	<!-- Header -->
+
+
+        <!-- Parte del cuerpo y pie -->
+       <div id="Bajo">
+
+            
+            <div id="ColumnaIzquierda">
+        <asp:ContentPlaceHolder id="ContentMenu" runat="server">
+        
+        </asp:ContentPlaceHolder>  
+            </div>
+
+            <div id="ColumnaCentro">
+
+        <asp:ContentPlaceHolder id="ContentPrincipal" runat="server">
+        
+        </asp:ContentPlaceHolder>  
+
+
+            </div>
+
+            <div id="ColumnaDerecha">
+
+            </div>
+    </div>           <!-- Fin de la parte del cuerpo -->
+        		
+       
+        
+     <div id="copyright"> <!-- Pie de la pagina -->
+			<div class="container">
+				Cooperativa de Ahorro y Crédito “Juventud Ecuatoriana Progresista” Ltda
+               <p> <a>- Todos los derechos reservados | Ecuador 2018 -</a></p>
+    
+			</div>
+	</div> <!-- Fin del pie de la pagina -->
+
+    </form>
+</body>
+</html>
